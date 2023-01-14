@@ -1,0 +1,24 @@
+:root {
+    --cor01: #1A3C85;
+    --cor02: #C70A0A;
+}
+header {
+    background-image: linear-gradient(to bottom, #1A3C85, #1a3c85b9);
+    color: white;
+    text-align: center;
+    margin: 7px 17px 7px 17px;
+    padding: 5px 10px;
+}
+header:hover{
+    background-color: #C70A0A;
+}
+header p{
+    font-weight: bolder;
+}
+nav{
+    background-color: #1a3c85b9;
+    color: white;
+    text-align: center;
+    margin: 7px 17px 7px 17px;
+    padding: 5px 10px;
+}
