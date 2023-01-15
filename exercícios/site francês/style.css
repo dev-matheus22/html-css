@@ -6,7 +6,7 @@ header {
     background-image: linear-gradient(to bottom, #1A3C85, #1a3c85b9);
     color: white;
     text-align: center;
-    margin: 7px 17px 7px 17px;
+    margin: auto;
     padding: 5px 10px;
 }
 header:hover{
@@ -19,6 +19,28 @@ nav{
     background-color: #1a3c85b9;
     color: white;
     text-align: center;
-    margin: 7px 17px 7px 17px;
+    margin: -7px 17px 7px 17px;
     padding: 5px 10px;
+}
+nav a {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3em;
+    padding: 4px 10px;
+}
+body{
+    background-color: lightgoldenrodyellow;
+    
+}
+main {
+    width: 500px;
+    text-align: justify;
+    margin: auto;
+    padding: 10px 10px;
+}
+.vocab {
+    background-color: #1a3c858e;
+    text-align: left;
+    margin: 7px 17px 7px 17px;
+    padding: 10px 10px;
 }
