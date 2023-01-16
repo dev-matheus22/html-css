@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Satisfy&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+header{
+    color: #663300;
+    background-image: url(santos/sepia3.jpg);
+    background-size: 1000px 1000px;
+    width: 980px;
+    padding: 10px;
+    margin: auto;
+}
+header h1{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    font-size: 3em;
+    text-decoration: underline;
+}
+header p{
+    text-align: center;
+    font-size: 1.5em;
+}
+body{
+    background-color: #F5D298;
+}
+
+main{
+    color: #663300;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url(santos/sepia3.jpg);
+    background-size: 1000px 1000px;
+    width: 980px;
+    padding: 10px;
+    margin: auto;
+}
+
+main > article > ul{
+    list-style-type: '\🕆\00A0';
+    list-style-position: inside;
+}
