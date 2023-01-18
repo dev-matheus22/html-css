@@ -20,6 +20,16 @@ body{
 main{
     background-color: white;
     width: 1000px;
+    height: 1000px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.534);
+}
+.altura{
+    background-color: white;
+    width: 1000px;
+    height: auto;;
     padding: 10px;
     margin: auto;
     border-radius: 10px;
@@ -56,19 +66,20 @@ header > p{
     margin: auto;
     margin-left: 158px;
 }
-
-
-
-
-div{
-    width: 1000px;
-    height: 200px;
-    margin: 200px;
-    border: 3px solid black;
-    display: inline-block;
+.box{
+    float: left;
+    width:480px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: lightgrey;
 }
-.container{
-    background-color: antiquewhite;
+.box2{
+        float: left;
+        width: 511px;
+        margin: 0px;
+        height: 300px;
+        border-radius: 10px;
+        background-color: lightgrey;
 }
 nav{
     width: 1000px;
@@ -87,13 +98,14 @@ nav a{
     text-decoration: none;
     color: white;
 }
+
 article{
     line-height: 1.9em;
     text-align: justify;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
-    border:4px solid white;
+    border:3px solid white;
 }
 p{
     line-height: 1.9em;
@@ -138,6 +150,12 @@ p2{
     color: white;
     text-align: center;
 }
+.santos2b{
+    font-family: satisfy, sans-serif;
+    background-color: #00e02b9c;
+    color: white;
+    text-align: center;
+}
 
 .santos2{
     width: 580px;
@@ -167,4 +185,18 @@ p2{
     text-align: center;
     font-size: large;
     font-style: italic;
+}
+footer{
+    background-color: white;
+    color: black;
+    font-size: 1.8em;
+    width: 1016px;
+    height: 44px;
+    padding: 2px;
+    margin: auto;
+    margin-left: 157px;
+    border-radius: 0px 0px 10px 10px;
+}
+footer p{
+    text-align: center;
 }
