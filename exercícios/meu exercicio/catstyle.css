@@ -4,39 +4,60 @@
 
 header{
     color: #663300;
-    background-image: url(santos/sepia3.jpg);
     background-size: 1000px 1000px;
     width: 980px;
     padding: 10px;
     margin: auto;
+    border: 2px solid #663300;
+    border-radius: 5px 5px 0px 0px;
 }
 header h1{
+    margin-top: -10px;
     text-align: center;
-    font-family: 'Satisfy', cursive;
     font-weight: bold;
     font-size: 3em;
     text-decoration: underline;
 }
 header p{
+    width: auto;
+    padding: 2px;
+    margin-top: -34px;
+    margin-bottom: 40px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 body{
-    background-color: #F5D298;
+    background-image: url(santos/sepia3.jpg);
+    background-color:  #0B2B40;
 }
 
 main{
     color: #663300;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    background-image: url(santos/sepia3.jpg);
     background-size: 1000px 1000px;
     width: 980px;
     padding: 10px;
     margin: auto;
+    border: 2px solid #663300;
+    border-radius: 0px 0px 5px 5px;
+
 }
 
 main > article > ul{
     list-style-type: '\🕆\00A0';
     list-style-position: inside;
+    font-weight: bolder;
+}
+main > article > h2{
+    text-decoration: underline;
+}
+main > article > li{
+    font-weight: bolder;
+}
+main > article > p{
+    font-weight: bolder;
+}
+#indice{
+    margin-top: -3px;
 }
