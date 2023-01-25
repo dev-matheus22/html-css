@@ -28,7 +28,7 @@ header h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte02);
-    font-size: 10vw;
+    font-size: 5vw;
 }
 header p {
 padding-bottom: 50px;
@@ -47,7 +47,23 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte03);
-    font-size: 4.5vw;
+    font-size: 2.2vw;
+}
+section#img01{
+background-image: url('../imagens/agueda.png');
+background-position: right center;
+background-size: cover;
+}
+
+section#img02{
+    background-image: url('../imagens/agueda.png');
+    background-size: cover;
+    background-position: right center;
+
+}
+
+section > p{
+    padding-bottom: 2em;
 }
 section.normal{
     background-color: white;
@@ -56,12 +72,15 @@ section.normal{
 section.imagem{
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
 }
 section.imagem > p{
     
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
+    text-shadow: 1px 1px 1px black;
 }
 footer{
     background-color: black;
