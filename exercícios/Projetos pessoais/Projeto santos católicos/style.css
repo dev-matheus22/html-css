@@ -139,6 +139,13 @@ p2{
     width: 100px;
     padding: 5px;
 }
+figure img{
+    width: 100%;
+}
+.figura{
+    width: 250px;
+    float: left;
+}
 .imagemG{
     display: block;
     margin-left: auto;
