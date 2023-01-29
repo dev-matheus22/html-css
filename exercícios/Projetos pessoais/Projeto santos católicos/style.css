@@ -19,7 +19,6 @@ body{
 }
 main{
     background-color: white;
-    width: 1000px;
     height: 1000px;
     padding: 10px;
     margin: auto;
@@ -60,28 +59,27 @@ header > p{
 }
 .config {
     background-image: linear-gradient(to bottom, #f5cc97, #400101b2);
-    width: 1000px;
     height: 167px;
     padding: 10px;
     margin: auto;
-    margin-left: 158px;
 }
 .box{
     float: left;
-    width:480px;
+    width: 50%;
     height: 300px;
     border-radius: 10px;
     background-color: lightgrey;
 }
 .box2{
         float: left;
-        width: 511px;
+        width: 50%;
         margin: 0px;
         height: 300px;
         border-radius: 10px;
         background-color: lightgrey;
 }
 nav{
+    text-align: left;
     width: 1000px;
     margin: auto;
     padding: 10px;
@@ -93,6 +91,7 @@ nav a:hover{
     background-color: #400101b2;
 }
 nav a{
+    text-align: left;
     border-radius: 10px;
     padding: 10PX;
     text-decoration: none;
