@@ -68,7 +68,6 @@ header > p{
     width: 50%;
     height: 300px;
     border-radius: 10px;
-    background-color: lightgrey;
 }
 .box2{
         float: left;
@@ -76,7 +75,6 @@ header > p{
         margin: 0px;
         height: 300px;
         border-radius: 10px;
-        background-color: lightgrey;
 }
 nav{
     text-align: left;
@@ -109,7 +107,6 @@ article{
     text-align: justify;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: white;
     border:3px solid white;
 }
 p{
@@ -118,6 +115,8 @@ p{
     font-size: medium;
     text-indent: 50px;
     text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 p2{
     margin: 10px;
@@ -156,11 +155,17 @@ figure img{
     color: white;
     text-align: center;
 }
+.cabelhaço-titulos{
+    text-align: center;
+    background-color: #D99C62;
+}
 .santos{
     font-family: satisfy, sans-serif;
     background-color: #f2b869;
     color: white;
     text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .santos2b{
     font-family: satisfy, sans-serif;
@@ -202,11 +207,9 @@ footer{
     background-color: white;
     color: black;
     font-size: 1.8em;
-    width: 1016px;
     height: 44px;
     padding: 2px;
     margin: auto;
-    margin-left: 157px;
     border-radius: 0px 0px 10px 10px;
 }
 footer p{
