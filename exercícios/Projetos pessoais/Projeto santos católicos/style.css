@@ -57,13 +57,8 @@ header > p{
     padding: 10px 10px 10px 10px;
     margin: 0px;
 }
-.config {
-    background-image: linear-gradient(to bottom, #f5cc97, #400101b2);
-    height: 167px;
-    padding: 10px;
-    margin: auto;
-}
-.box{
+
+.seção{
     float: left;
     width: 50%;
     height: 300px;
@@ -155,11 +150,18 @@ figure img{
     color: white;
     text-align: center;
 }
-.cabelhaço-titulos{
+/* CLASSES DA PÁGINA PRINCIPAL */
+.parte0 {
+    background-image: linear-gradient(to bottom, #f5cc97, #400101b2);
+    height: 167px;
+    padding: 10px;
+    margin: auto;
+}
+.parte1{
     text-align: center;
     background-color: #D99C62;
 }
-.santos{
+.parte1-1{
     font-family: satisfy, sans-serif;
     background-color: #f2b869;
     color: white;
@@ -167,13 +169,17 @@ figure img{
     margin-left: 2%;
     margin-right: 2%;
 }
-.santos2b{
+.parte2{
+    text-align: center;
+    background-color: #D99C62;
+}
+.parte2-1{
     font-family: satisfy, sans-serif;
     background-color: #EDA574;
     color: white;
     text-align: center;
 }
-
+/* CLASSES DA PÁGINA PRINCIPAL */
 .santos2{
     width: 580px;
     padding: 0px;

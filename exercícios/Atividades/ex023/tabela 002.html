@@ -18,6 +18,12 @@
             padding: 10px;
 
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
         thead{
             background-color: grey;
             color: white;
@@ -26,24 +32,34 @@
             text-align: right;
 
         }
+
+        tbody > tr:nth-child(odd){
+            background-color: lightgrey;
+
+        }
     </style>
 </head>
 <body>
     <!--
         ANATOMIA TABELAS GRANDES:
             TABLE
+            CAPTION
             THEADER
                 tr, td, th
             TBODY
                 tr,td,th
             TFOOTER
                 tr,td,th
+
+                th = título
+                td= dado
     -->
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -63,7 +79,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td>00000</td>
             </tr>
         </tfoot>
