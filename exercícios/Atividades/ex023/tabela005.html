@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .destaque {
+            background-color: chartreuse;
+        }
+        .cnome{
+            background-color: chartreuse;
+        }
+        .cgrpo {
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício tabela</h1>
+
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="cgrpo" span="2">
+        <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Mario José</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Assistente administrativo</td>
+        </tr>
+        <tr>
+            <td>Maria Silva</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Carla de Sá</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Samantha Sousa</td>
+            <td>F</td>
+            <td>44</td>
+            <td>Policial</td>
+        </tr>
+       
+    </table>
+</body>
+</html>
