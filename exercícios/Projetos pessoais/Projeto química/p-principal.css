@@ -1,0 +1,13 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+main {
+    background-color: aquamarine;
+    color: azure;
+    text-align: center;
+    font-size: 2em;
+}
+div > article {
+    display: inline;
+}
