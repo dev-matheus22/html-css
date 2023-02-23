@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="formulario.html">
+        <label for="info">Informação</label>
+        <input type="text" name="teste" id="info" placeholder="Matemática" list="info_info" required>
+        <button type="submit">Enviar</button>
+<br>
+        <label for="info_email">Email: </label>
+        <input type="email" name="E-mail" id="info_email" placeholder="Digite seu email">
+<br>
+        <label for="info_data">Data</label>
+        <input type="date" id="info_data">
+        <br>
+        <label for="info_senha">Senha: </label>
+        <input type="password" id="info_senha">
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+        <br>
+        <input type="file" enctype="multipart/formdata">
+        <input type="text" name="teste1" id="info_especifico" min="12" max="18">
+    </form>
+    <select name="Lista" id="info_lista">
+        <optgroup label="Região nordeste"></optgroup>
+        <option value="1">Bahia</option>
+        <option value="2">Pernambuco</option>
+        <option value="3">Sergipe</option>
+        <option value="4">Alagoas</option>
+        <optgroup label="Região sudeste"></optgroup>
+        <option value="5">São Paulo</option>
+        <option value="6" selected>Rio de Janeiro</option>
+        <option value="7">Espirito Santo</option>
+        <option value="8">Minas Gerais</option>
+        <optgroup label="Região sul"></optgroup>
+        <option value="9">Paraná</option>
+        <option value="10">Santa Catarina</option>
+        <option value="11">Rio Grande do Sul</option>
+    </select>
+    <br>
+    <fieldset>
+        <legend>Rua</legend>
+        ...
+    </fieldset>
+    <fieldset>
+        <legend>Cidade</legend>
+
+    </fieldset>
+    <datalist id="info_info">
+        <option value="Masculino"></option>
+        <option value="Feminino"></option>
+    </datalist>
+</body>
+</html>
