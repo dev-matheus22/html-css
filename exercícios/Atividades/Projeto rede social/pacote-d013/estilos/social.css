@@ -11,6 +11,7 @@
         width: 100vw;
     }
     a{
+        
         display: block;
         background-color: darkred;
         color: white;
@@ -22,3 +23,5 @@
     a:hover{
         background-color: red;
     }
+
+    
