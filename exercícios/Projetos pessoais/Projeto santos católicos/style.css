@@ -20,8 +20,6 @@ body{
 main{
     position: relative;
     background-color: white;
-    height: 100%vh;
-    padding: 10px;
     margin: auto;
     border-radius: 10px 10px 0px 0px;
     box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.534);
@@ -65,13 +63,7 @@ header > p{
     height: 300px;
     border-radius: 10px;
 }
-.box2{
-        float: left;
-        width: 50%;
-        margin: 0px;
-        height: 300px;
-        border-radius: 10px;
-}
+
 nav{
     text-align: left;
     width: 1000px;
@@ -90,6 +82,9 @@ nav a{
     padding: 10PX;
     text-decoration: none;
     color: white;
+}
+.artigo {
+    background-color: var(--cor00);
 }
 .colunas{
     columns: 2;
