@@ -17,7 +17,7 @@
         }
         /* CABELHAÇO */ 
         header {
-            height: 167px;
+            height: 40px;
         }
         header p {
             font-size: 0.5em;
@@ -27,27 +27,36 @@
             background-color: var(--cor01);
             color: var(--cor03);
             text-align: center;
-            font-size: 2em;
+            font-size: 0.8em;
             text-decoration: underline;
         }
         .barra{
             background-color: var(--cor01);
             font-size: 1.7em;
         }
+        header menu {
+            background-color: aqua;
+        }
         /* FIM */
         /* MAIN */
+        article{
+            display: block;
+            width: 400px;
+            margin: auto;
+        }
     </style>
 </head>
 <body>
     <header class="cabelhaço">
         <h1>Santos católicos</h1>
         <p>Bem-vindo ao site santos católicos</p>
+        <menu id="menu1">
+            <menuitem label="Opção 1"></menuitem>
+            <menuitem label="Opção 2"></menuitem>
+            <menuitem label="Opção 3"></menuitem>
+          </menu>
     </header>
-    <nav class="barra">
-        <a href="">Santos</a>
-        <a href="">Catecismo</a>
-        <a href="">Papas</a>
-    </nav>
+    
     <main class="principal">
         <div>
             <article>
