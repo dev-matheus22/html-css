@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contando caracteres</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $("#titulo").css("color", "blue");
+            $("#titulo").html('<h2>Novo cara</h2>')
+            $("#produto").text('Modelo 15')
+            $('body').append("<p>Novo parágrafo</p>")
+            $("#titulo").remove();
+
+            // $('#btn').on('click', estender)
+
+            // function estender (event){
+            //     $('#btn').css('width', 500);
+            // }
+
+            //     $('#btn').on('click', function(event){
+            //         $('#btn').css('width', 500)
+            //     });
+
+            //     $('#quadrado').on('click', function(){
+            //         $(this).css('opacity', .20);
+            //     });
+            // });
+            // i = 1;
+            // $('.quadrado').each(function(){
+            //     $(this).css('color', 'white')
+            //     $(this).text("Quadrado" + i);
+            //     i++;
+            // });
+
+            // $('#quadrado2').hover(function()
+            // {
+            //     $(this).fadeToggle('slow')
+            // });
+
+            // $('#btn').click(function(){
+            //     $('.quadrado').slideToggle('slow');
+            // })
+            // $('#btn2').click(function(){
+            //     $('.quadrado').slideDown('slow');
+            // })
+        })
+    </script>
+    <style>
+        .quadrado {
+            width: 200px;
+            height: 150px;
+            background-color: brown;
+            margin-bottom: 20px;
+        }
+        #quadrado2 {
+            width: 200px;
+            height: 150px;
+            background-color: brown;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>,
+<body>
+    <button id="menuBtn">Mostrar/Esconder Menu</button>
+    <div id="menu" style="display: none; background: lightgray; padding: 10px;">
+        <p>Item 1</p>
+        <p>Item 2</p>
+        <p>Item 3</p>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $("#menuBtn").click(function() {
+            $("#menu").slideToggle("fast");
+        });
+    </script>
+    
+</body>
+</html>

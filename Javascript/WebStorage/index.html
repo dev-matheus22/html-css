@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <title>LocalStçorage Formulário</title>
+    <style>
+        body {line-height: 2;}
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Local storage formulário</h1>
+    <form class="form-login" method="post">
+
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome"><br>
+
+    <label for="sobrenome">Sobrenome</label>
+    <input type="text" name="sobrenome" id="sobrenome">
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+</form>
+
+<div id="buttonDiv">
+    <button id="salvar">Salvar</button>
+    <button id="carregar">Carregar</button>
+    <button id="cancelar">Cancelar</button>
+
+    <button id="salvarString">Salvar JSON</button>
+    <button id="carregarString">Carregar JSON</button>
+    <button id="cancelarString">Cancelar JSON</button>
+
+    <button id="cancelarTudo">Cancelar todos os dados</button>
+    <br>
+    <button id="limpar">Limpar o formulário</button>
+</div>
+</body>
+</html>
